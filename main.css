@@ -330,6 +330,7 @@ footer {
     font-size: 18px;
     font-weight: 600;
     padding: 15px 30px;
+    box-shadow: rgb(16 122 28 / 30%);
 }
 button .fa-chevron-right {
     font-size: 15px;
