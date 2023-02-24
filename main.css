@@ -70,6 +70,7 @@ button:hover {
 
 
 .about {
+    position: relative;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -337,6 +338,14 @@ button .fa-chevron-right {
     margin-left: 5px;
 }
 
+.orb-canvas {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+
+
 @media (max-width: 1024px) {
     header, section, footer {
         padding-right: 20px;
@@ -400,6 +409,8 @@ button .fa-chevron-right {
     .promo {
         flex-direction: column-reverse;
         padding-bottom: 0;
+        padding-right: 0;
+        padding-left: 0;
     }
     .promo__right {
         padding: 50px 10px;
